@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>REVIZ'GROUP - Accueil</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="../style/accueil.css" rel="stylesheet"/>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="Header"> <h1 class="textHeader">REVIZ'GROUP</h1></header>
+
+
+<!--------------------------------------------------Ma navbar------------------------------------------------>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="accueil.html">
+            <i class="fas fa-home"></i>
+        </a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Cours.html"><i class="fas fa-book"></i> Mes cours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="groupes.html"><i class="fas fa-users"></i> Mes groupes</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Rechercher des cours" aria-label="Search">
+           <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> Rechercher</button>-->
+        </form>
+        <a class="navbar-brand logout" data-toggle="modal" data-target="#myModal" >
+            <h5>   <i class="fas fa-sign-out-alt"></i> Déconnexion</h5>
+        </a>
+    </div>
+</nav>
+
+<!--------------------------------------------------FIN NAVBAR------------------------------------------------>
+
+<div class="conteneur">
+    <p class="phrase-accueil">
+        REVIZ'GROUP c'est l'application pour réviser avec tes amis ! Crée des groupes de révision et faites vos propres quizz pour tester vos connaissances. Prêt à relever le défi ? Commence dès maintenant !
+    </p>
+</div>
+<div class="row">
+    <div class="col-8 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Le concept</h2>
+            </div>
+            <div class="card-body">
+                <div class="scrollable">
+                    <div class="arrow left-arrow ">  <i class="left-arrow"></i>&larr;</div>
+                    <div class="content">
+                        <p class="tuto">REVIZ'GROUP : Comment ça marche ?</p>
+                    </div>
+                    <div class="arrow right-arrow">&rarr;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="create-button btn btn-xl" id="button-accueil" onclick="navigateOnCreateGroupe()">Créer un groupe</button>
+<!------------------------------------------------- Modal -------------------------------------------------->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header" style="background-color: #F8BBD0;">
+                <h4 class="modal-title text-white">Deconnexion</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p class="message-deco">Etes-vous sûr de vouloir vous déconnecter?</p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+                <a onclick="Deconnexion()" class="btn btn-success">Se déconnecter</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------------------FIN MODAL------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script type="application/ecmascript" src="../tools.js"></script>
+<script src="../js/accueil.js"></script>
+<script>
+setInterval(() => {
+    isAuthenticated();
+}, 1000);
+</script>
+</body>
+</html>
