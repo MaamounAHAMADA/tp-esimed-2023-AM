@@ -1,0 +1,37 @@
+.Header{
+    background-color: #f01cc2;
+}
+.textBienvenue{
+    font-style: oblique;
+    text-align: center;
+}
+.textHeader{
+    text-align: center;
+    font-family: Fredoka One;
+    padding-bottom: 23px;
+    padding-top: 19px;
+}
+
+.Menu{
+    color: white;
+    font-weight: bold;
+}
+
+.inputIns{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-footer{
+    margin-top: 17px;
+    background-color: cornflowerblue;
+    border-color: black;
+}
+
+.TitreIns {
+    text-align: center;
+}
+
+.card{
+    margin-top: 55px;
+}

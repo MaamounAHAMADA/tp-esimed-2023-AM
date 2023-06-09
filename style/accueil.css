@@ -1,0 +1,125 @@
+.Header{
+    background-color: hotpink;
+}
+
+.textHeader{
+    text-align: center;
+    font-family: Fredoka One;
+    padding-bottom: 23px;
+    padding-top: 19px;
+}
+
+
+
+
+
+
+
+
+.card-header{
+    text-align: center;
+    background-color: hotpink;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px;
+}
+.row{
+    padding-bottom: 72px;
+}
+.tuto{
+    display: flex;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+}
+.conteneur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phrase-accueil{
+    padding-top: 30px;
+
+    width: 850px;
+    font-size: 23px;
+    font-style: italic;
+    text-align: center;
+
+}
+.message-deco{
+    width: 400px;
+}
+#button-accueil {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 40px;
+
+}
+.card-title {
+    color: #FFF;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    transform: rotate(360deg);
+}
+
+.content {
+    flex: 1;
+    overflow-x: clip;
+    white-space: nowrap;
+}
+.card-body {
+    overflow-x: auto;
+}
+
+.scrollable {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    width: 200px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+
+.navbar {
+    background-color: hotpink;
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav-link {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.navbar input {
+    border-radius: 20px;
+}
+.navbar i {
+    margin-right: 7px;
+}
+
+.create-button {
+    background-color: #f8a5c2;
+    border-radius: 50px;
+    padding: 12px 22px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}

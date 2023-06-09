@@ -1,0 +1,13 @@
+.button-quit {
+    background-color: rgba(255, 0, 0, 0.75);
+    border-radius: 50px;
+    padding: 9px 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.Titre-page{
+    text-align: center;
+}

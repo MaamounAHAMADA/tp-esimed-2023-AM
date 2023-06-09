@@ -1,0 +1,73 @@
+.create-button {
+    background-color: #f8a5c2;
+    border-radius: 50px;
+    padding: 12px 22px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+/* Styles pour le modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+
+    border-radius: 10px;
+    width: 60%;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-title {
+
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.modal-header{
+    background-color: #e054a8;
+
+}
+.course-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.group-list {
+    width: 100%;
+    padding: 10px;
+}
+
+.finish-button {
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+

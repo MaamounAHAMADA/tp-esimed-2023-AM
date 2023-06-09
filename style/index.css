@@ -1,0 +1,84 @@
+
+
+.Connecter {
+    font-family : Josefin Slab;
+    text-align: center;
+
+
+}
+
+.textBienvenue {
+    margin-top: 35px;
+    margin-bottom: 54px;
+    font-family : Josefin Slab;
+    text-align: center;
+   font-style: italic;
+}
+.form-control{
+    padding-bottom: 20px;
+}
+
+.textEmail{
+    text-align:  center;
+    padding: 17px;
+
+}
+.Header{
+    background-color: #f01cc2;
+}
+#password-modal{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.textHeader {
+    text-align: center;
+    font-family: Fredoka One;
+    padding-bottom: 23px;
+    padding-top: 19px;
+}
+.textInscription {
+    text-align: center;
+    font-family: Fredoka One;
+}
+.textConnexion {
+    text-align: center;
+    font-family: Fredoka One ;
+    color: white;
+
+}
+.textMdp{
+    text-align:  center;
+
+    padding: 17px;
+}
+.erreurmdp{
+    text-align: center;
+    color: red;
+    font-style: oblique;
+}
+.Inscription {
+margin-top: 150px;
+    background-color: #f01cc2;
+    padding: 10px;
+
+    border-bottom-left-radius: 26px;
+    border-top-right-radius: 26px ;
+    border-bottom-right-radius : 26px;
+    border-top-left-radius :26px ;
+    border:  9px white;
+
+}
+.Connexion {
+margin-top: 20px;
+    background-color: #f01cc2;
+    padding: 10px;
+
+    border-bottom-left-radius: 26px;
+    border-top-right-radius: 26px ;
+    border-bottom-right-radius : 26px;
+    border-top-left-radius :26px ;
+    border:  9px white;
+
+}

@@ -1,0 +1,50 @@
+.card {
+    margin: 20px;
+}
+
+#modaletape{
+    display: none;
+}
+.oneaffirmation{
+    display: flex;
+}
+.conseil{
+    font-style: italic;
+}
+
+#statut1{
+    display: none;
+}
+
+#statut2{
+    display: none;
+}
+
+#statut3 {
+    display: none;
+}
+
+#statut4 {
+    display: none;
+}
+
+.input-background {
+    background-color: #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+#title{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.explications
+{
+    font-size: 20px;
+    padding-bottom: 22px;
+    text-align: center;
+    font-style: italic;
+}
